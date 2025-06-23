@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: 4e72c5c8914f88a4691eee0d7603f8cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6572822815371700455
+    second: Night-Stars-Small_0
+  - first:
+      213: -2285337482703749629
+    second: Night-Stars-Small_1
+  - first:
+      213: -7346615580506106087
+    second: Night-Stars-Small_2
+  - first:
+      213: 3473372882518473498
+    second: Night-Stars-Small_3
+  - first:
+      213: -3856392230663927272
+    second: Night-Stars-Small_4
+  - first:
+      213: 7878335559442649050
+    second: Night-Stars-Small_5
+  - first:
+      213: 4959001908410253614
+    second: Night-Stars-Small_6
+  - first:
+      213: 122964151971889551
+    second: Night-Stars-Small_7
+  - first:
+      213: -5805281932970577741
+    second: Night-Stars-Small_8
+  - first:
+      213: 6781046712586655551
+    second: Night-Stars-Small_9
+  - first:
+      213: 8149640934718151393
+    second: Night-Stars-Small_10
+  - first:
+      213: 2836772484553920042
+    second: Night-Stars-Small_11
+  - first:
+      213: 3028609664289575983
+    second: Night-Stars-Small_12
+  - first:
+      213: 4800784490788887518
+    second: Night-Stars-Small_13
+  - first:
+      213: 3552679639355066282
+    second: Night-Stars-Small_14
+  - first:
+      213: -7215127327967041037
+    second: Night-Stars-Small_15
+  - first:
+      213: 2309327506555439192
+    second: Night-Stars-Small_16
+  - first:
+      213: 9019512857570138430
+    second: Night-Stars-Small_17
+  - first:
+      213: 8595033819007343963
+    second: Night-Stars-Small_18
+  - first:
+      213: 8534999960275007930
+    second: Night-Stars-Small_19
+  - first:
+      213: 8006257024768534588
+    second: Night-Stars-Small_20
+  - first:
+      213: 5992711951696360683
+    second: Night-Stars-Small_21
+  - first:
+      213: -3241846925993110569
+    second: Night-Stars-Small_22
+  - first:
+      213: 2640379848089985759
+    second: Night-Stars-Small_23
+  - first:
+      213: -7185476328597829491
+    second: Night-Stars-Small_24
+  - first:
+      213: -5390479220125467261
+    second: Night-Stars-Small_25
+  - first:
+      213: 3478652242028318213
+    second: Night-Stars-Small_26
+  - first:
+      213: -7172545480724093308
+    second: Night-Stars-Small_27
+  - first:
+      213: 6311999540111942825
+    second: Night-Stars-Small_28
+  - first:
+      213: -2230864178195526559
+    second: Night-Stars-Small_29
+  - first:
+      213: 3177558910732744641
+    second: Night-Stars-Small_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Night-Stars-Small_0
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1491
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917df264974a8c4a0800000000000000
+      internalID: -6572822815371700455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_1
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ebe8feaa9d840e0800000000000000
+      internalID: -2285337482703749629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1341
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9175596bd049b0a90800000000000000
+      internalID: -7346615580506106087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_3
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bfcf2eb36e33030800000000000000
+      internalID: 3473372882518473498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_4
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a43b0c2b75b7ac0800000000000000
+      internalID: -3856392230663927272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_5
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1213
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf48e93378755d60800000000000000
+      internalID: 7878335559442649050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21074736f9e1d440800000000000000
+      internalID: 4959001908410253614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_7
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f814466ae3bd4b100800000000000000
+      internalID: 122964151971889551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_8
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0bb44f6de7f6fa0800000000000000
+      internalID: -5805281932970577741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37de0dbe0e1b1e50800000000000000
+      internalID: 6781046712586655551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_10
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1049
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea9bd06047591170800000000000000
+      internalID: 8149640934718151393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_11
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1033
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e407a7b8d3e5720800000000000000
+      internalID: 2836772484553920042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_12
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1017
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f249b438178c70a20800000000000000
+      internalID: 3028609664289575983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 967
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb1da80f00df9240800000000000000
+      internalID: 4800784490788887518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 959
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa785802f47ad4130800000000000000
+      internalID: 3552679639355066282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_15
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 939
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9af4f2ce7bedb90800000000000000
+      internalID: -7215127327967041037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8588642c1216c0020800000000000000
+      internalID: 2309327506555439192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_17
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e395982182fbb2d70800000000000000
+      internalID: 9019512857570138430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_18
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dd66e48b1b74770800000000000000
+      internalID: 8595033819007343963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_19
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 649
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab93a265e39627670800000000000000
+      internalID: 8534999960275007930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 627
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38edc55850fb1f60800000000000000
+      internalID: 8006257024768534588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 581
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be47912f4c36a2350800000000000000
+      internalID: 5992711951696360683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_22
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 585
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d31df79565a203d0800000000000000
+      internalID: -3241846925993110569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_23
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2e0858b7384a420800000000000000
+      internalID: 2640379848089985759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_24
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88c2f3795f084c90800000000000000
+      internalID: -7185476328597829491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_25
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dfb4395bb2135b0800000000000000
+      internalID: -5390479220125467261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_26
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec63f88c7a64030800000000000000
+      internalID: 3478652242028318213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_27
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 425
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4866b1613eff57c90800000000000000
+      internalID: -7172545480724093308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_28
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 335
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a42dcaa32ab89750800000000000000
+      internalID: 6311999540111942825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_29
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c038c79d06a01e0800000000000000
+      internalID: -2230864178195526559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night-Stars-Small_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c73a1f6ef4f81c20800000000000000
+      internalID: 3177558910732744641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
