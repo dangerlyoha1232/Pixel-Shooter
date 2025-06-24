@@ -9062,8 +9062,20 @@ PrefabInstance:
       value: RangedAlienEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 517824658221205947, guid: cd6cd9096a46b4544a844f4e01dc4907, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 517824658221205947, guid: cd6cd9096a46b4544a844f4e01dc4907, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717434599796884711, guid: cd6cd9096a46b4544a844f4e01dc4907, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717434599796884711, guid: cd6cd9096a46b4544a844f4e01dc4907, type: 3}
+      propertyPath: m_Direction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8434625539074131658, guid: cd6cd9096a46b4544a844f4e01dc4907, type: 3}
       propertyPath: m_LocalPosition.x
