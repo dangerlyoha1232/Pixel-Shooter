@@ -61,10 +61,9 @@ namespace Game.Bullet
             if (other.TryGetComponent<IDamageable>(out var enemy))
             {
                 enemy.TakeDamage(_playerData.PlayerStats.Damage);
+                _animator.SetTrigger("OnDestroy");
+                _isReleased = true;
             }
-            
-            _animator.SetTrigger("OnDestroy");
-            _isReleased = true;
         }
 
         private bool IsTouchingEnvironment()

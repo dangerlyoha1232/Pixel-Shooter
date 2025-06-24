@@ -19,7 +19,7 @@ namespace Game
         {
             float actualDamage = Mathf.Min(damage, _value);
             
-            _value = actualDamage;
+            _value -= actualDamage;
             OnDamage?.Invoke(actualDamage);
             
             if(_value == 0)

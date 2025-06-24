@@ -129,9 +129,10 @@ namespace Game.EnemyScripts
 
         private void Die()
         {
-            _animator.SetTrigger("OnDead");
-            _isDead = true;
             Destroy(gameObject, 4f);
+            _isDead = true;
+            _animator.SetTrigger("OnDead");
+            _animator.SetBool("IsDead", true);
         }
     }
 }

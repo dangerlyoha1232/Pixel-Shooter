@@ -51,18 +51,18 @@ namespace Game.Bullet
                 transform.Translate(Vector3.left * _velocity * Time.deltaTime);
         }
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.TryGetComponent<Enemy>(out Enemy enemy))
+            if (other.TryGetComponent<Enemy>(out var enemy))
                 return;
 
-            if (other.TryGetComponent<IDamageable>(out IDamageable player))
+            if (other.TryGetComponent<Player>(out var player))
             {
+                Debug.Log("Hit Player, applying damage");
                 player.TakeDamage(_damage);
+                _animator.SetTrigger("OnDestroy");
+                _isReleased = true;
             }
-
-            _animator.SetTrigger("OnDestroy");
-            _isReleased = true;
         }
         
         private bool IsTouchingEnvironment()
