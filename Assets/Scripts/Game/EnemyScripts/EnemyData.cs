@@ -19,5 +19,6 @@ namespace Game.EnemyScripts
         public float Speed;
         public float ViewRange;
         public float AttackRange;
+        public float PointsForKill;
     }
 }

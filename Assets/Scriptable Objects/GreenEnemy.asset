@@ -18,3 +18,4 @@ MonoBehaviour:
     Speed: 3
     ViewRange: 7
     AttackRange: 1
+    PointsForKill: 100

@@ -34,7 +34,7 @@ namespace Game.PlayerScripts
             if (_inputHandler.JumpInput() && IsGrounded())
                 Jump();
 
-            _animationHandler.IsGrounded(!IsGrounded());
+            _animationHandler.IsGrounded(IsGrounded());
         }
 
         private void FixedUpdate()

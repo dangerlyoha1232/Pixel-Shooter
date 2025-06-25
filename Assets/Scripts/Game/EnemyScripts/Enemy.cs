@@ -1,6 +1,7 @@
 using Game.PlayerScripts;
 using Game.Services;
 using UnityEngine;
+using System;
 
 namespace Game.EnemyScripts
 {
@@ -11,6 +12,8 @@ namespace Game.EnemyScripts
         [SerializeField] private Animator _animator;
         
         private PlayerMovement _playerMovement;
+        private Rigidbody2D _rigidbody2D;
+        private CapsuleCollider2D _capsuleCollider2D;
         
         protected bool _isFacingRight;
         private Transform _playerTransform;
@@ -23,6 +26,8 @@ namespace Game.EnemyScripts
         public virtual void Start()
         {
             _playerMovement = ServiceLocator.Current.Get<PlayerMovement>();
+            _rigidbody2D = GetComponent<Rigidbody2D>();
+            _capsuleCollider2D = GetComponent<CapsuleCollider2D>();
             _health = new Health(_data.Stats.Health);
 
             _originPosition = transform.position;
@@ -131,8 +136,15 @@ namespace Game.EnemyScripts
         {
             Destroy(gameObject, 4f);
             _isDead = true;
+            EventBus.SendEnemyDie(_data.Stats.PointsForKill);
             _animator.SetTrigger("OnDead");
             _animator.SetBool("IsDead", true);
+        }
+
+        public void DisablePhysics()
+        {
+            _rigidbody2D.bodyType = RigidbodyType2D.Kinematic;
+            _capsuleCollider2D.isTrigger = true;
         }
     }
 }
