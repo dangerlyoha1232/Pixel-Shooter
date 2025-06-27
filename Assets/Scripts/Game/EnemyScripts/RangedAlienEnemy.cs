@@ -17,7 +17,7 @@ namespace Game.EnemyScripts
 
         public void DealDamage()
         {
-            _bulletPool.GetBullet(_isFacingRight, transform, _data.Stats.Damage);
+            _bulletPool.GetBullet(IsFacingRight, transform, _data.Stats.Damage);
         }
     }
 }

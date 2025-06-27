@@ -13,10 +13,10 @@ namespace Game.PlayerScripts
         }
         
         public void RunAnimation(float speed) => _animator.SetFloat("Run_speed", speed);
-        public void IsMoving(bool isMoving) => _animator.SetBool("IsMoving", isMoving);
         public void JumpAnimation() => _animator.SetTrigger("OnJump");
         public void IsGrounded(bool isGrounded) => _animator.SetBool("IsGrounded", isGrounded);
-        public void ShootAnimation() => _animator.SetTrigger("OnShoot");
+        public void ShootAnimation(bool isShoot) => _animator.SetBool("IsShoot", isShoot);
         public void HurtAnimation() => _animator.SetTrigger("OnHurt");
+        public void DeadAnimation() => _animator.SetTrigger("OnDead");
     }
 }

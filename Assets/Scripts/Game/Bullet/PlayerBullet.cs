@@ -55,6 +55,8 @@ namespace Game.Bullet
 
         private void OnTriggerEnter2D(Collider2D other)
         {
+            Debug.Log(other.gameObject.name);
+            
             if(other.TryGetComponent<Player>(out var player))
                 return;
 

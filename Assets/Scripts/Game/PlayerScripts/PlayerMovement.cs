@@ -18,6 +18,7 @@ namespace Game.PlayerScripts
         private SpriteRenderer _spriteRenderer;
 
         private float _horizontalInput;
+        private bool _isPlayerDie = false;
 
         private void Start()
         {
@@ -27,10 +28,20 @@ namespace Game.PlayerScripts
 
             _rigidbody = GetComponent<Rigidbody2D>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
+
+            EventBus.OnPlayerDie += OnPlayerDie;
         }
 
+        private void OnDestroy()
+        {
+            EventBus.OnPlayerDie -= OnPlayerDie;
+        }
+        
         private void Update()
         {
+            if(_isPlayerDie)
+                return;
+            
             if (_inputHandler.JumpInput() && IsGrounded())
                 Jump();
 
@@ -39,6 +50,9 @@ namespace Game.PlayerScripts
 
         private void FixedUpdate()
         {
+            if(_isPlayerDie)
+                return;
+            
             HorizontalMove();
         }
 
@@ -53,8 +67,6 @@ namespace Game.PlayerScripts
             _rigidbody.linearVelocity = velocity;
 
             _animationHandler.RunAnimation(direction.sqrMagnitude);
-            
-            _animationHandler.IsMoving(direction.sqrMagnitude > 0);
 
             FlipSpriteView();
         }
@@ -85,5 +97,7 @@ namespace Game.PlayerScripts
         }
         
         public Transform GiveTransform() => transform;
+        
+        private void OnPlayerDie() => _isPlayerDie = true;
     }
 }

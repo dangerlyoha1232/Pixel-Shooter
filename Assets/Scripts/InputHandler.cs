@@ -7,5 +7,5 @@ public class InputHandler : IService
     
     public bool JumpInput() => Input.GetButtonDown("Jump");
     
-    public bool LeftMouseInput() => Input.GetMouseButtonDown(0);
+    public bool LeftMouseInput() => Input.GetMouseButton(0);
 }

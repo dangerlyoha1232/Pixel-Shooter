@@ -1,7 +1,7 @@
 using Game.PlayerScripts;
 using Game.Services;
+using TMPro;
 using UnityEngine;
-using System;
 
 namespace Game.EnemyScripts
 {
@@ -15,13 +15,14 @@ namespace Game.EnemyScripts
         private Rigidbody2D _rigidbody2D;
         private CapsuleCollider2D _capsuleCollider2D;
         
-        protected bool _isFacingRight;
+        protected bool IsFacingRight;
         private Transform _playerTransform;
         private Vector3 _originPosition;
         private Vector3 _vectorToOrigin;
         
         private Health _health;
         private bool _isDead;
+        private bool _isPlayerDie = false;
         
         public virtual void Start()
         {
@@ -33,18 +34,23 @@ namespace Game.EnemyScripts
             _originPosition = transform.position;
 
             _health.OnDeath += Die;
+            EventBus.OnPlayerDie += IsPlayerDie;
         }
 
         private void OnDestroy()
         {
             _health.OnDeath -= Die;
+            EventBus.OnPlayerDie -= IsPlayerDie;
         }
 
         public virtual void Update()
         {
-            if (_isDead)
+            if (_isDead || _isPlayerDie)
+            {
+                _animator.SetBool("IsMoving", false);
                 return;
-            
+            }
+
             _playerTransform = _playerMovement.GiveTransform();
             _vectorToOrigin = _originPosition - transform.position;
             
@@ -54,13 +60,13 @@ namespace Game.EnemyScripts
                 if (IsPlayerOnAttackRange())
                     Attack();
             }
-            else if (transform.position != _originPosition && !IsPlayerInSight())
+            else if (transform.position != _originPosition && !IsPlayerInSight() || _isPlayerDie)
             {
                 BackToOrigin();
                 
-                if(_vectorToOrigin.x > 0f && !_isFacingRight)
+                if(_vectorToOrigin.x > 0f && !IsFacingRight)
                     Flip();
-                else if(_vectorToOrigin.x < 0f && _isFacingRight)
+                else if(_vectorToOrigin.x < 0f && IsFacingRight)
                     Flip();
             }
 
@@ -72,9 +78,9 @@ namespace Game.EnemyScripts
             Vector2 vectorToPlayer = _playerTransform.position - transform.position;
             float distanceToPlayer = vectorToPlayer.magnitude;
 
-            if (vectorToPlayer.x > 0f && !_isFacingRight)
+            if (vectorToPlayer.x > 0f && !IsFacingRight)
                 Flip();
-            else if (vectorToPlayer.x <0f && _isFacingRight)
+            else if (vectorToPlayer.x <0f && IsFacingRight)
                 Flip();
             
             if(distanceToPlayer <= _data.Stats.AttackRange)
@@ -93,7 +99,7 @@ namespace Game.EnemyScripts
         
         private void Flip()
         {
-            _isFacingRight = !_isFacingRight;
+            IsFacingRight = !IsFacingRight;
             Vector3 localScale = transform.localScale;
             localScale.x *= -1;
             transform.localScale = localScale;
@@ -144,7 +150,9 @@ namespace Game.EnemyScripts
         public void DisablePhysics()
         {
             _rigidbody2D.bodyType = RigidbodyType2D.Kinematic;
-            _capsuleCollider2D.isTrigger = true;
+            _capsuleCollider2D.enabled = false;
         }
+        
+        private void IsPlayerDie() => _isPlayerDie = true;
     }
 }

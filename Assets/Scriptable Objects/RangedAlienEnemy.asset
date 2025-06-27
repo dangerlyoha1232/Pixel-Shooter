@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Game.EnemyScripts.EnemyData
   _stats:
     Health: 100
-    Damage: 10
+    Damage: 15
     Speed: 2.5
     ViewRange: 10
     AttackRange: 5

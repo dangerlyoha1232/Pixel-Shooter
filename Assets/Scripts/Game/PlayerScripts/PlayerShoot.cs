@@ -19,15 +19,12 @@ namespace Game.PlayerScripts
 
         private void Update()
         {
-            if (_inputHandler.LeftMouseInput())
-            {
-                ShootAnimation();
-            }
+            ShootAnimation(_inputHandler.LeftMouseInput());
         }
 
-        private void ShootAnimation()
+        private void ShootAnimation(bool isShoot)
         {
-            _animationsHandler.ShootAnimation();
+            _animationsHandler.ShootAnimation(isShoot);
         }
 
         public void InitializeBullet()
