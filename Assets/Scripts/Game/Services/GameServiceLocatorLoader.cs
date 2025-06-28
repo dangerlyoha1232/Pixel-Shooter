@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game.Services
 {
-    public class ServiceLocatorLoader : MonoBehaviour
+    public class GameServiceLocatorLoader : MonoBehaviour
     {
         [Header("Player Services")]
         [SerializeField] private Player _player;
@@ -18,12 +18,14 @@ namespace Game.Services
         
         private PlayerBulletPool _playerBulletPool;
         private EnemyBulletPool _enemyBulletPool;
+        private SceneLoader _sceneLoader;
         
         private void Awake()
         {
             _inputHandler = new InputHandler();
             _playerBulletPool = new PlayerBulletPool();
             _enemyBulletPool = new EnemyBulletPool();
+            _sceneLoader = new SceneLoader();
             
             RegisterServices();
             Init();
@@ -41,6 +43,7 @@ namespace Game.Services
             ServiceLocator.Current.Register<EnemyBulletPool>(_enemyBulletPool);
             ServiceLocator.Current.Register<PlayerMovement>(_playerMovement);
             ServiceLocator.Current.Register<GameScore>(_gameScore);
+            ServiceLocator.Current.Register<SceneLoader>(_sceneLoader);
         }
 
         private void Init()

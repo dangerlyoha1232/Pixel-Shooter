@@ -7,13 +7,20 @@ namespace Game.UI.PlayerUI
     {
         [SerializeField] private TMP_Text _timerText;
 
-        private float _gameTime;
+        private float _gameTimeSeconds;
+        private int _gameTimeMinutes;
         
         private void Update()
         {
-            _gameTime += Time.deltaTime;
+            _gameTimeSeconds += Time.deltaTime;
+
+            if (_gameTimeSeconds > 59)
+            {
+                _gameTimeMinutes++;
+                _gameTimeSeconds = 0;
+            }
             
-            _timerText.text = _gameTime.ToString("F1");
+            _timerText.text = _gameTimeMinutes.ToString() + ":" + _gameTimeSeconds.ToString("F0");
         }
     }
 }

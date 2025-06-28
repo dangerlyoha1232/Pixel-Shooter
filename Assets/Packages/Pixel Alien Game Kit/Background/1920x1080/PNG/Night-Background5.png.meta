@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Night-Background5_0: 1867714705022513300
+      Night-Background5_1: -1565985321188661099
+      Night-Background5_2: -1566389136033173414
+      Night-Background5_3: 2686639921180585820
+      Night-Background5_4: 2271587368621974463
+      Night-Background5_5: -6291502740431433604
+      Night-Background5_6: 1494511341731552244
+      Night-Background5_7: -403635006863343651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
